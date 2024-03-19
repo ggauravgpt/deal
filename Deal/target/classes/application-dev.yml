@@ -1,0 +1,11 @@
+logging:
+  level:
+    com.apollo: DEBUG
+
+app:
+  datasource:
+    medicine:
+      driver: org.postgresql.Driver
+      url: jdbc:postgresql://10.210.0.43:5432/pharmacy_qa
+      username: pharmacy_rw
+      password: Welcome@123
